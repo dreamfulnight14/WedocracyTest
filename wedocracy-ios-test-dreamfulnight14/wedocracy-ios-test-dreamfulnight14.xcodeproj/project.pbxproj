@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B68ED11953F40E00007332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B68ED01953F40E00007332 /* Foundation.framework */; };
+		22B68ED31953F40E00007332 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B68ED21953F40E00007332 /* CoreGraphics.framework */; };
+		22B68ED51953F40E00007332 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B68ED41953F40E00007332 /* UIKit.framework */; };
+		22B68EDB1953F40E00007332 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22B68ED91953F40E00007332 /* InfoPlist.strings */; };
+		22B68EDD1953F40E00007332 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68EDC1953F40E00007332 /* main.m */; };
+		22B68EE11953F40E00007332 /* WDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68EE01953F40E00007332 /* WDAppDelegate.m */; };
+		22B68EE41953F40E00007332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B68EE21953F40E00007332 /* Main.storyboard */; };
+		22B68EE91953F40E00007332 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B68EE81953F40E00007332 /* Images.xcassets */; };
+		22B68EF01953F40E00007332 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B68EEF1953F40E00007332 /* XCTest.framework */; };
+		22B68EF11953F40E00007332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B68ED01953F40E00007332 /* Foundation.framework */; };
+		22B68EF21953F40E00007332 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B68ED41953F40E00007332 /* UIKit.framework */; };
+		22B68EFA1953F40E00007332 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22B68EF81953F40E00007332 /* InfoPlist.strings */; };
+		22B68EFC1953F40E00007332 /* wedocracy_ios_test_dreamfulnight14Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68EFB1953F40E00007332 /* wedocracy_ios_test_dreamfulnight14Tests.m */; };
+		22B68F1F1953F47D00007332 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F091953F47D00007332 /* AFHTTPClient.m */; };
+		22B68F201953F47D00007332 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F0B1953F47D00007332 /* AFHTTPRequestOperation.m */; };
+		22B68F211953F47D00007332 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F0D1953F47D00007332 /* AFImageRequestOperation.m */; };
+		22B68F221953F47D00007332 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F0F1953F47D00007332 /* AFJSONRequestOperation.m */; };
+		22B68F231953F47D00007332 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F111953F47D00007332 /* AFNetworkActivityIndicatorManager.m */; };
+		22B68F241953F47D00007332 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F141953F47D00007332 /* AFPropertyListRequestOperation.m */; };
+		22B68F251953F47D00007332 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F161953F47D00007332 /* AFURLConnectionOperation.m */; };
+		22B68F261953F47D00007332 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F181953F47D00007332 /* AFXMLRequestOperation.m */; };
+		22B68F271953F47D00007332 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F1A1953F47D00007332 /* UIImageView+AFNetworking.m */; };
+		22B68F281953F47D00007332 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22B68F1C1953F47D00007332 /* SVProgressHUD.bundle */; };
+		22B68F291953F47D00007332 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F1E1953F47D00007332 /* SVProgressHUD.m */; };
+		22B68F3E1953FB6B00007332 /* WDApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F3D1953FB6B00007332 /* WDApi.m */; };
+		22B68F451953FCDA00007332 /* WDWish.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F441953FCDA00007332 /* WDWish.m */; };
+		22B68F54195400F600007332 /* WDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F4A195400F600007332 /* WDBaseViewController.m */; };
+		22B68F55195400F600007332 /* WDEditWishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F4D195400F600007332 /* WDEditWishViewController.m */; };
+		22B68F56195400F600007332 /* WDWishDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F50195400F600007332 /* WDWishDetailViewController.m */; };
+		22B68F57195400F600007332 /* WDWishListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F53195400F600007332 /* WDWishListViewController.m */; };
+		22B68F5A1954010100007332 /* WDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F591954010100007332 /* WDUtils.m */; };
+		22B68F5E195402DC00007332 /* WDWishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B68F5D195402DC00007332 /* WDWishCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22B68EF31953F40E00007332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B68EC51953F40E00007332 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B68ECC1953F40E00007332;
+			remoteInfo = "wedocracy-ios-test-dreamfulnight14";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22B68ECD1953F40E00007332 /* wedocracy-ios-test-dreamfulnight14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wedocracy-ios-test-dreamfulnight14.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B68ED01953F40E00007332 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22B68ED21953F40E00007332 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22B68ED41953F40E00007332 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22B68ED81953F40E00007332 /* wedocracy-ios-test-dreamfulnight14-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wedocracy-ios-test-dreamfulnight14-Info.plist"; sourceTree = "<group>"; };
+		22B68EDA1953F40E00007332 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22B68EDC1953F40E00007332 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22B68EDE1953F40E00007332 /* wedocracy-ios-test-dreamfulnight14-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wedocracy-ios-test-dreamfulnight14-Prefix.pch"; sourceTree = "<group>"; };
+		22B68EDF1953F40E00007332 /* WDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDAppDelegate.h; sourceTree = "<group>"; };
+		22B68EE01953F40E00007332 /* WDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDAppDelegate.m; sourceTree = "<group>"; };
+		22B68EE31953F40E00007332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22B68EE81953F40E00007332 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22B68EEE1953F40E00007332 /* wedocracy-ios-test-dreamfulnight14Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wedocracy-ios-test-dreamfulnight14Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B68EEF1953F40E00007332 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		22B68EF71953F40E00007332 /* wedocracy-ios-test-dreamfulnight14Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wedocracy-ios-test-dreamfulnight14Tests-Info.plist"; sourceTree = "<group>"; };
+		22B68EF91953F40E00007332 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22B68EFB1953F40E00007332 /* wedocracy_ios_test_dreamfulnight14Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wedocracy_ios_test_dreamfulnight14Tests.m; sourceTree = "<group>"; };
+		22B68F081953F47D00007332 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		22B68F091953F47D00007332 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		22B68F0A1953F47D00007332 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		22B68F0B1953F47D00007332 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		22B68F0C1953F47D00007332 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		22B68F0D1953F47D00007332 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		22B68F0E1953F47D00007332 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		22B68F0F1953F47D00007332 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		22B68F101953F47D00007332 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		22B68F111953F47D00007332 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		22B68F121953F47D00007332 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		22B68F131953F47D00007332 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		22B68F141953F47D00007332 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		22B68F151953F47D00007332 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		22B68F161953F47D00007332 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		22B68F171953F47D00007332 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		22B68F181953F47D00007332 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		22B68F191953F47D00007332 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		22B68F1A1953F47D00007332 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		22B68F1C1953F47D00007332 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		22B68F1D1953F47D00007332 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		22B68F1E1953F47D00007332 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		22B68F3C1953FB6B00007332 /* WDApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDApi.h; sourceTree = "<group>"; };
+		22B68F3D1953FB6B00007332 /* WDApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDApi.m; sourceTree = "<group>"; };
+		22B68F431953FCDA00007332 /* WDWish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDWish.h; sourceTree = "<group>"; };
+		22B68F441953FCDA00007332 /* WDWish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDWish.m; sourceTree = "<group>"; };
+		22B68F49195400F600007332 /* WDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDBaseViewController.h; sourceTree = "<group>"; };
+		22B68F4A195400F600007332 /* WDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDBaseViewController.m; sourceTree = "<group>"; };
+		22B68F4C195400F600007332 /* WDEditWishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDEditWishViewController.h; sourceTree = "<group>"; };
+		22B68F4D195400F600007332 /* WDEditWishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDEditWishViewController.m; sourceTree = "<group>"; };
+		22B68F4F195400F600007332 /* WDWishDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDWishDetailViewController.h; sourceTree = "<group>"; };
+		22B68F50195400F600007332 /* WDWishDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDWishDetailViewController.m; sourceTree = "<group>"; };
+		22B68F52195400F600007332 /* WDWishListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDWishListViewController.h; sourceTree = "<group>"; };
+		22B68F53195400F600007332 /* WDWishListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDWishListViewController.m; sourceTree = "<group>"; };
+		22B68F581954010100007332 /* WDUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDUtils.h; sourceTree = "<group>"; };
+		22B68F591954010100007332 /* WDUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDUtils.m; sourceTree = "<group>"; };
+		22B68F5C195402DC00007332 /* WDWishCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDWishCell.h; sourceTree = "<group>"; };
+		22B68F5D195402DC00007332 /* WDWishCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDWishCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B68ECA1953F40E00007332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B68ED31953F40E00007332 /* CoreGraphics.framework in Frameworks */,
+				22B68ED51953F40E00007332 /* UIKit.framework in Frameworks */,
+				22B68ED11953F40E00007332 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B68EEB1953F40E00007332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B68EF01953F40E00007332 /* XCTest.framework in Frameworks */,
+				22B68EF21953F40E00007332 /* UIKit.framework in Frameworks */,
+				22B68EF11953F40E00007332 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B68EC41953F40E00007332 = {
+			isa = PBXGroup;
+			children = (
+				22B68ED61953F40E00007332 /* wedocracy-ios-test-dreamfulnight14 */,
+				22B68EF51953F40E00007332 /* wedocracy-ios-test-dreamfulnight14Tests */,
+				22B68ECF1953F40E00007332 /* Frameworks */,
+				22B68ECE1953F40E00007332 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22B68ECE1953F40E00007332 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B68ECD1953F40E00007332 /* wedocracy-ios-test-dreamfulnight14.app */,
+				22B68EEE1953F40E00007332 /* wedocracy-ios-test-dreamfulnight14Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B68ECF1953F40E00007332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22B68ED01953F40E00007332 /* Foundation.framework */,
+				22B68ED21953F40E00007332 /* CoreGraphics.framework */,
+				22B68ED41953F40E00007332 /* UIKit.framework */,
+				22B68EEF1953F40E00007332 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22B68ED61953F40E00007332 /* wedocracy-ios-test-dreamfulnight14 */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F061953F47D00007332 /* Additional */,
+				22B68F2A1953F60900007332 /* Classes */,
+				22B68EDF1953F40E00007332 /* WDAppDelegate.h */,
+				22B68EE01953F40E00007332 /* WDAppDelegate.m */,
+				22B68EE21953F40E00007332 /* Main.storyboard */,
+				22B68EE81953F40E00007332 /* Images.xcassets */,
+				22B68ED71953F40E00007332 /* Supporting Files */,
+			);
+			path = "wedocracy-ios-test-dreamfulnight14";
+			sourceTree = "<group>";
+		};
+		22B68ED71953F40E00007332 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22B68ED81953F40E00007332 /* wedocracy-ios-test-dreamfulnight14-Info.plist */,
+				22B68ED91953F40E00007332 /* InfoPlist.strings */,
+				22B68EDC1953F40E00007332 /* main.m */,
+				22B68EDE1953F40E00007332 /* wedocracy-ios-test-dreamfulnight14-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22B68EF51953F40E00007332 /* wedocracy-ios-test-dreamfulnight14Tests */ = {
+			isa = PBXGroup;
+			children = (
+				22B68EFB1953F40E00007332 /* wedocracy_ios_test_dreamfulnight14Tests.m */,
+				22B68EF61953F40E00007332 /* Supporting Files */,
+			);
+			path = "wedocracy-ios-test-dreamfulnight14Tests";
+			sourceTree = "<group>";
+		};
+		22B68EF61953F40E00007332 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22B68EF71953F40E00007332 /* wedocracy-ios-test-dreamfulnight14Tests-Info.plist */,
+				22B68EF81953F40E00007332 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22B68F061953F47D00007332 /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F071953F47D00007332 /* AFNetworking */,
+				22B68F1B1953F47D00007332 /* SVProgressHUD */,
+			);
+			path = Additional;
+			sourceTree = "<group>";
+		};
+		22B68F071953F47D00007332 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F081953F47D00007332 /* AFHTTPClient.h */,
+				22B68F091953F47D00007332 /* AFHTTPClient.m */,
+				22B68F0A1953F47D00007332 /* AFHTTPRequestOperation.h */,
+				22B68F0B1953F47D00007332 /* AFHTTPRequestOperation.m */,
+				22B68F0C1953F47D00007332 /* AFImageRequestOperation.h */,
+				22B68F0D1953F47D00007332 /* AFImageRequestOperation.m */,
+				22B68F0E1953F47D00007332 /* AFJSONRequestOperation.h */,
+				22B68F0F1953F47D00007332 /* AFJSONRequestOperation.m */,
+				22B68F101953F47D00007332 /* AFNetworkActivityIndicatorManager.h */,
+				22B68F111953F47D00007332 /* AFNetworkActivityIndicatorManager.m */,
+				22B68F121953F47D00007332 /* AFNetworking.h */,
+				22B68F131953F47D00007332 /* AFPropertyListRequestOperation.h */,
+				22B68F141953F47D00007332 /* AFPropertyListRequestOperation.m */,
+				22B68F151953F47D00007332 /* AFURLConnectionOperation.h */,
+				22B68F161953F47D00007332 /* AFURLConnectionOperation.m */,
+				22B68F171953F47D00007332 /* AFXMLRequestOperation.h */,
+				22B68F181953F47D00007332 /* AFXMLRequestOperation.m */,
+				22B68F191953F47D00007332 /* UIImageView+AFNetworking.h */,
+				22B68F1A1953F47D00007332 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		22B68F1B1953F47D00007332 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F1C1953F47D00007332 /* SVProgressHUD.bundle */,
+				22B68F1D1953F47D00007332 /* SVProgressHUD.h */,
+				22B68F1E1953F47D00007332 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		22B68F2A1953F60900007332 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F3B1953FB6000007332 /* Api */,
+				22B68F47195400F600007332 /* Screens */,
+				22B68F46195400D100007332 /* Utils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		22B68F3B1953FB6000007332 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F421953FCDA00007332 /* Model */,
+				22B68F3C1953FB6B00007332 /* WDApi.h */,
+				22B68F3D1953FB6B00007332 /* WDApi.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		22B68F421953FCDA00007332 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F431953FCDA00007332 /* WDWish.h */,
+				22B68F441953FCDA00007332 /* WDWish.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22B68F46195400D100007332 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F581954010100007332 /* WDUtils.h */,
+				22B68F591954010100007332 /* WDUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		22B68F47195400F600007332 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F48195400F600007332 /* Base */,
+				22B68F4B195400F600007332 /* EditWish */,
+				22B68F4E195400F600007332 /* WishDetail */,
+				22B68F51195400F600007332 /* WishList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		22B68F48195400F600007332 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F49195400F600007332 /* WDBaseViewController.h */,
+				22B68F4A195400F600007332 /* WDBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		22B68F4B195400F600007332 /* EditWish */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F4C195400F600007332 /* WDEditWishViewController.h */,
+				22B68F4D195400F600007332 /* WDEditWishViewController.m */,
+			);
+			path = EditWish;
+			sourceTree = "<group>";
+		};
+		22B68F4E195400F600007332 /* WishDetail */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F4F195400F600007332 /* WDWishDetailViewController.h */,
+				22B68F50195400F600007332 /* WDWishDetailViewController.m */,
+			);
+			path = WishDetail;
+			sourceTree = "<group>";
+		};
+		22B68F51195400F600007332 /* WishList */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F5B195402CD00007332 /* Cell */,
+				22B68F52195400F600007332 /* WDWishListViewController.h */,
+				22B68F53195400F600007332 /* WDWishListViewController.m */,
+			);
+			path = WishList;
+			sourceTree = "<group>";
+		};
+		22B68F5B195402CD00007332 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				22B68F5C195402DC00007332 /* WDWishCell.h */,
+				22B68F5D195402DC00007332 /* WDWishCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B68ECC1953F40E00007332 /* wedocracy-ios-test-dreamfulnight14 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B68EFF1953F40E00007332 /* Build configuration list for PBXNativeTarget "wedocracy-ios-test-dreamfulnight14" */;
+			buildPhases = (
+				22B68EC91953F40E00007332 /* Sources */,
+				22B68ECA1953F40E00007332 /* Frameworks */,
+				22B68ECB1953F40E00007332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wedocracy-ios-test-dreamfulnight14";
+			productName = "wedocracy-ios-test-dreamfulnight14";
+			productReference = 22B68ECD1953F40E00007332 /* wedocracy-ios-test-dreamfulnight14.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22B68EED1953F40E00007332 /* wedocracy-ios-test-dreamfulnight14Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B68F021953F40E00007332 /* Build configuration list for PBXNativeTarget "wedocracy-ios-test-dreamfulnight14Tests" */;
+			buildPhases = (
+				22B68EEA1953F40E00007332 /* Sources */,
+				22B68EEB1953F40E00007332 /* Frameworks */,
+				22B68EEC1953F40E00007332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B68EF41953F40E00007332 /* PBXTargetDependency */,
+			);
+			name = "wedocracy-ios-test-dreamfulnight14Tests";
+			productName = "wedocracy-ios-test-dreamfulnight14Tests";
+			productReference = 22B68EEE1953F40E00007332 /* wedocracy-ios-test-dreamfulnight14Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B68EC51953F40E00007332 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Ibrahim;
+				TargetAttributes = {
+					22B68EED1953F40E00007332 = {
+						TestTargetID = 22B68ECC1953F40E00007332;
+					};
+				};
+			};
+			buildConfigurationList = 22B68EC81953F40E00007332 /* Build configuration list for PBXProject "wedocracy-ios-test-dreamfulnight14" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22B68EC41953F40E00007332;
+			productRefGroup = 22B68ECE1953F40E00007332 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B68ECC1953F40E00007332 /* wedocracy-ios-test-dreamfulnight14 */,
+				22B68EED1953F40E00007332 /* wedocracy-ios-test-dreamfulnight14Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B68ECB1953F40E00007332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B68EE91953F40E00007332 /* Images.xcassets in Resources */,
+				22B68EDB1953F40E00007332 /* InfoPlist.strings in Resources */,
+				22B68EE41953F40E00007332 /* Main.storyboard in Resources */,
+				22B68F281953F47D00007332 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B68EEC1953F40E00007332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B68EFA1953F40E00007332 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B68EC91953F40E00007332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B68F5A1954010100007332 /* WDUtils.m in Sources */,
+				22B68F57195400F600007332 /* WDWishListViewController.m in Sources */,
+				22B68F55195400F600007332 /* WDEditWishViewController.m in Sources */,
+				22B68F54195400F600007332 /* WDBaseViewController.m in Sources */,
+				22B68F201953F47D00007332 /* AFHTTPRequestOperation.m in Sources */,
+				22B68F451953FCDA00007332 /* WDWish.m in Sources */,
+				22B68F211953F47D00007332 /* AFImageRequestOperation.m in Sources */,
+				22B68F241953F47D00007332 /* AFPropertyListRequestOperation.m in Sources */,
+				22B68F221953F47D00007332 /* AFJSONRequestOperation.m in Sources */,
+				22B68F251953F47D00007332 /* AFURLConnectionOperation.m in Sources */,
+				22B68F291953F47D00007332 /* SVProgressHUD.m in Sources */,
+				22B68EDD1953F40E00007332 /* main.m in Sources */,
+				22B68F3E1953FB6B00007332 /* WDApi.m in Sources */,
+				22B68F56195400F600007332 /* WDWishDetailViewController.m in Sources */,
+				22B68F261953F47D00007332 /* AFXMLRequestOperation.m in Sources */,
+				22B68EE11953F40E00007332 /* WDAppDelegate.m in Sources */,
+				22B68F231953F47D00007332 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				22B68F5E195402DC00007332 /* WDWishCell.m in Sources */,
+				22B68F271953F47D00007332 /* UIImageView+AFNetworking.m in Sources */,
+				22B68F1F1953F47D00007332 /* AFHTTPClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B68EEA1953F40E00007332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B68EFC1953F40E00007332 /* wedocracy_ios_test_dreamfulnight14Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22B68EF41953F40E00007332 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B68ECC1953F40E00007332 /* wedocracy-ios-test-dreamfulnight14 */;
+			targetProxy = 22B68EF31953F40E00007332 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22B68ED91953F40E00007332 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B68EDA1953F40E00007332 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22B68EE21953F40E00007332 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B68EE31953F40E00007332 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22B68EF81953F40E00007332 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B68EF91953F40E00007332 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22B68EFD1953F40E00007332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22B68EFE1953F40E00007332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22B68F001953F40E00007332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wedocracy-ios-test-dreamfulnight14/wedocracy-ios-test-dreamfulnight14-Prefix.pch";
+				INFOPLIST_FILE = "wedocracy-ios-test-dreamfulnight14/wedocracy-ios-test-dreamfulnight14-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22B68F011953F40E00007332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wedocracy-ios-test-dreamfulnight14/wedocracy-ios-test-dreamfulnight14-Prefix.pch";
+				INFOPLIST_FILE = "wedocracy-ios-test-dreamfulnight14/wedocracy-ios-test-dreamfulnight14-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22B68F031953F40E00007332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wedocracy-ios-test-dreamfulnight14.app/wedocracy-ios-test-dreamfulnight14";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wedocracy-ios-test-dreamfulnight14/wedocracy-ios-test-dreamfulnight14-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "wedocracy-ios-test-dreamfulnight14Tests/wedocracy-ios-test-dreamfulnight14Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		22B68F041953F40E00007332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wedocracy-ios-test-dreamfulnight14.app/wedocracy-ios-test-dreamfulnight14";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wedocracy-ios-test-dreamfulnight14/wedocracy-ios-test-dreamfulnight14-Prefix.pch";
+				INFOPLIST_FILE = "wedocracy-ios-test-dreamfulnight14Tests/wedocracy-ios-test-dreamfulnight14Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B68EC81953F40E00007332 /* Build configuration list for PBXProject "wedocracy-ios-test-dreamfulnight14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B68EFD1953F40E00007332 /* Debug */,
+				22B68EFE1953F40E00007332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B68EFF1953F40E00007332 /* Build configuration list for PBXNativeTarget "wedocracy-ios-test-dreamfulnight14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B68F001953F40E00007332 /* Debug */,
+				22B68F011953F40E00007332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22B68F021953F40E00007332 /* Build configuration list for PBXNativeTarget "wedocracy-ios-test-dreamfulnight14Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B68F031953F40E00007332 /* Debug */,
+				22B68F041953F40E00007332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B68EC51953F40E00007332 /* Project object */;
+}
